@@ -21,7 +21,7 @@ import edu.usc.util.Utils;
 
 public class TestGwaliResultsetSize {
 
-    private static final String TEST_CASES_PATHS_FILE = "/home/alameer/workspace/gwaliTestCases/RQ2TestCases";
+    private static final String TEST_CASES_PATHS_FILE = "C:\\Users\\fzhan\\code\\research\\gwali\\src\\test\\TestCases.txt";
 
     private static FirefoxDriver baseLineDriver;
     private static FirefoxDriver putDriver;

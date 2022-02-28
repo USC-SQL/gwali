@@ -12,12 +12,12 @@ import java.util.List;
 public class TestGwaliAPI {
 
     public static void main(String[]args){
-        String refPath = "file:///Users/abdulmajeed/Library/Application%20Support/Firefox/Profiles/vyr24igw.default-1432923284677/ScrapBook/data/20170419182957/index.html";
-        String testPath = "file:///Users/abdulmajeed/Library/Application%20Support/Firefox/Profiles/vyr24igw.default-1432923284677/ScrapBook/data/20170419182916/index.html";
-        testPath = "https://www.think-pink.be/nl/raceforthecure/neem-deel";
-        refPath = "https://www.think-pink.be/fr/raceforthecure/neem-deel";
+        String refPath = "file:///C:/Users/fzhan/code/research/ifix/ifix-master/subjects/westin-ref/index.html";
+        String testPath = "file:///C:/Users/fzhan/code/research/ifix/ifix-master/subjects/westin-test/index.html";
+        // testPath = "https://www.google.com";
+        // refPath = "https://www.google.com";
 
-        //Config.CHECK_RTL = true;
+        Config.CHECK_RTL = false;
         FirefoxDriver refDriver = Utils.getNewFirefoxDriver();
         FirefoxDriver testDriver = Utils.getNewFirefoxDriver();
 

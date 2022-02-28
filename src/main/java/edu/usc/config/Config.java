@@ -27,9 +27,14 @@ public class Config {
 
 	public static boolean CHECK_RTL = false;
 
-	public static final String FIREFOX_LOCATION = "/usr/local/bin/firefox46.0.1/firefox";
-	public static final String FIREFOX_LOCATION_MAC = "/usr/local/bin/firefox46.0.1/bin/Firefox.app/Contents/MacOS/firefox";
-	public static final String DRIVER_LOCATION = "/usr/local/bin/geckodriver";
+	public static final String FIREFOX_LOCATION = "C:\\Program Files\\Mozilla Firefox 46\\firefox.exe";
+	public static final String FIREFOX_LOCATION_MAC = "C:\\Program Files\\Mozilla Firefox 46\\firefox.exe";
+	public static final String DRIVER_LOCATION = "C:\\Users\\fzhan\\code\\research\\geckodriver.exe";
+
+	// Test subject information
+	public static final String SUBJECTS_FOLDER = "C:\\Users\\fzhan\\code\\research\\ifix\\ifix-master\\subjects\\";
+	public static final String ACCURACY_CONFIG_FILE = "C:\\Users\\fzhan\\code\\research\\gwali\\src\\test\\RQ1TestCases.txt";
+	public static final String RANK_CONFIG_FILE = "C:\\Users\\fzhan\\code\\research\\gwali\\src\\test\\RQ2TestCases.txt";
 
 	public static final int NO_OF_SUBJECTS = 453;
 

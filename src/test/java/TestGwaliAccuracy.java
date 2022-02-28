@@ -27,7 +27,7 @@ import java.util.List;
 
 public class TestGwaliAccuracy {
 
-    public static final String TEST_CASES_PATHS_FILE = "/home/alameer/workspace/gwaliTestCases/RQ1TestCases";
+    public static final String TEST_CASES_PATHS_FILE = Config.ACCURACY_CONFIG_FILE;
     public static final boolean STD_OUT = true;
 
 

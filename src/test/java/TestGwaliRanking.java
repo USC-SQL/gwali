@@ -32,7 +32,7 @@ public class TestGwaliRanking {
         }
     }
     
-    private static final String TEST_CASES_PATHS_FILE_ = "/home/alameer/workspace/gwaliTestCases/RQ2TestCases";
+    private static final String TEST_CASES_PATHS_FILE_ = Config.RANK_CONFIG_FILE;
 
     private static final String TEMP_AUTO_FIX_FILE_NAME = "TEMP_AUTO_FIXED_FILE.html";
 
@@ -296,8 +296,10 @@ public class TestGwaliRanking {
 
     private static String[] readTestCasesPaths(String testCasesPathsFile) throws IOException {
         Path filePath = new File(testCasesPathsFile).toPath();
+        System.out.println(filePath);
         Charset charset = Charset.defaultCharset();
         List<String> stringList = Files.readAllLines(filePath, charset);
+        System.out.println(stringList);
         return stringList.toArray(new String[]{});
     }
 
